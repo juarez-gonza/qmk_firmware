@@ -1,3 +1,8 @@
+# FORK NOTE
+
+This is a fork I made for cheapino keyboard. It is based on [tompi cheapino's fork](https://github.com/tompi/qmk_firmware),
+but kept up to date with qmk's master branch. It also has my keymap for cheapino (work in progress) `sl-tog`.
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
