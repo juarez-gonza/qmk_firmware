@@ -28,10 +28,14 @@ uint32_t flash_led(uint32_t next_trigger_time, void *cb_arg) {
 }
 
 void keyboard_post_init_user(void) {
-    //debug_enable=true;
-    //debug_matrix=true;
-    //debug_keyboard=true;
-    //debug_mouse=true;
+    // Debugging in linux may require the following udev rule changes
+    // https://docs.qmk.fm/faq_build#linux-udev-rules
+    // https://github.com/qmk/qmk_firmware/tree/master/util/udev/50-qmk.rules
+    // See https://docs.qmk.fm/faq_debug#debugging for more debugging info
+    // debug_enable=true;
+    // debug_matrix=true;
+    // debug_keyboard=true;
+    // debug_mouse=true;
 
     // Store user selected rgb hsv:
     _hue = rgblight_get_hue();
